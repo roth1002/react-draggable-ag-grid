@@ -26,20 +26,29 @@ const rowData = [
 
 const columnDefs = [
   {
-    headerName: "Follow", field: "follow", filter: "text"},
-  {headerName: "Model", field: "model"},
-  {headerName: "Price", field: "price"}
+    headerName: 'Follow'
+    field: 'follow',
+    filter: 'text'
+  },
+  {
+    headerName: 'Model',
+    field: 'model'
+  },
+  {
+    headerName: 'Price',
+    field: 'price'
+  }
 ];
 
 const availableRows = [
   {
-    follow: 'Honda',
-    model: 'Accord',
+    follow: 'Follow 6.0',
+    model: '6.0',
     price: 5000
   },
   {
-    follow: 'Mitsubishi',
-    model: 'Eclipse',
+    follow: 'Follow 6.5',
+    model: '6.5',
     price: 16000
   }
 ]
