@@ -26,7 +26,7 @@ const rowData = [
 
 const columnDefs = [
   {
-    headerName: 'Follow'
+    headerName: 'Follow',
     field: 'follow',
     filter: 'text'
   },
